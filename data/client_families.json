@@ -1,0 +1,197 @@
+[
+    {
+        "id": 0,
+        "slug": "unknown",
+        "name": "Unknown"
+    },
+    {
+        "id": 1,
+        "slug": "firefox",
+        "name": "Mozilla Firefox"
+    },
+    {
+        "id": 2,
+        "slug": "microsoft-edge",
+        "name": "Microsoft Edge"
+    },
+    {
+        "id": 3,
+        "slug": "chrome",
+        "name": "Google Chrome"
+    },
+    {
+        "id": 4,
+        "slug": "opera",
+        "name": "Opera"
+    },
+    {
+        "id": 5,
+        "slug": "safari",
+        "name": "Safari"
+    },
+    {
+        "id": 6,
+        "slug": "brave",
+        "name": "Brave"
+    },
+    {
+        "id": 7,
+        "slug": "yandex-browser",
+        "name": "Yandex Browser"
+    },
+    {
+        "id": 8,
+        "slug": "mshots-bot",
+        "name": "MShots Bot"
+    },
+    {
+        "id": 9,
+        "slug": "google-crawler-bot",
+        "name": "Google Crawler Bot"
+    },
+    {
+        "id": 10,
+        "slug": "duckduckgo-bot",
+        "name": "DuckDuckGo Bot"
+    },
+    {
+        "id": 11,
+        "slug": "naver-whale",
+        "name": "Naver Whale Browser"
+    },
+    {
+        "id": 12,
+        "slug": "facebook-app",
+        "name": "Facebook App"
+    },
+    {
+        "id": 13,
+        "slug": "valve-steam-overlay",
+        "name": "Valve Steam Overlay"
+    },
+    {
+        "id": 14,
+        "slug": "whale-browser",
+        "name": "Whale Browser"
+    },
+    {
+        "id": 15,
+        "slug": "xiaomi-miui-browser",
+        "name": "Xiaomi MIUI Browser"
+    },
+    {
+        "id": 16,
+        "slug": "samsung-browser",
+        "name": "Samsung Browser"
+    },
+    {
+        "id": 17,
+        "slug": "android-webview",
+        "name": "Android WebView"
+    },
+    {
+        "id": 18,
+        "slug": "speedcurve-bot",
+        "name": "SpeedCurve Speedtester Bot"
+    },
+    {
+        "id": 19,
+        "slug": "bing-bot",
+        "name": "Microsoft Bing Bot"
+    },
+    {
+        "id": 20,
+        "slug": "iubenda-radar-bot",
+        "name": "Iubenda Radar Bot"
+    },
+    {
+        "id": 21,
+        "slug": "bitsight-bot",
+        "name": "BitSight Bot"
+    },
+    {
+        "id": 22,
+        "slug": "google-search-app",
+        "name": "Google Search App"
+    },
+    {
+        "id": 23,
+        "slug": "baidu-spider-bot",
+        "name": "Baidu Spider Bot"
+    },
+    {
+        "id": 24,
+        "slug": "instagram-app",
+        "name": "Instagram App"
+    },
+    {
+        "id": 25,
+        "slug": "webkit-webview",
+        "name": "WebKit WebView"
+    },
+    {
+        "id": 26,
+        "slug": "sogou-web-spider-bot",
+        "name": "Sogou Web Spider Bot"
+    },
+    {
+        "id": 27,
+        "slug": "wechat-app",
+        "name": "WeChat App"
+    },
+    {
+        "id": 28,
+        "slug": "tiktok-app",
+        "name": "TikTok App"
+    },
+    {
+        "id": 29,
+        "slug": "vivo-browser",
+        "name": "Vivo Browser"
+    },
+    {
+        "id": 30,
+        "slug": "yandex-search-bot",
+        "name": "Yandex Search Bot"
+    },
+    {
+        "id": 31,
+        "slug": "dataprovider-bot",
+        "name": "Dataprovider.com Bot"
+    },
+    {
+        "id": 32,
+        "slug": "electron-webview",
+        "name": "Electron WebView"
+    },
+    {
+        "id": 33,
+        "slug": "sebot-wa-bot",
+        "name": "SEBot-WA"
+    },
+    {
+        "id": 34,
+        "slug": "opera-touch",
+        "name": "Opera Touch"
+    },
+    {
+        "id": 35,
+        "slug": "chrome-headless",
+        "name": "Chrome (Headless)"
+    },
+    {
+        "id": 36,
+        "slug": "yahoo-japan-app",
+        "name": "Yahoo Japan App"
+    },
+    {
+        "id": 37,
+        "slug": "abevalbot-bot",
+        "name": "ABEvalBot"
+    },
+    {
+        "id": 38,
+        "slug": "meta-quest-browser",
+        "name": "Meta Quest Browser"
+    }
+]

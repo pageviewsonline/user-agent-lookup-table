@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "slug": "unknown",
+        "name": "Unknown"
+    },
+    {
+        "id": 1,
+        "slug": "ios",
+        "name": "iOS"
+    },
+    {
+        "id": 2,
+        "slug": "linux",
+        "name": "Linux"
+    },
+    {
+        "id": 3,
+        "slug": "android-fire-os",
+        "name": "Amazon Fire OS"
+    },
+    {
+        "id": 4,
+        "slug": "windows",
+        "name": "Windows"
+    },
+    {
+        "id": 5,
+        "slug": "macos",
+        "name": "macOS"
+    },
+    {
+        "id": 6,
+        "slug": "linux-ubuntu",
+        "name": "Ubuntu"
+    },
+    {
+        "id": 7,
+        "slug": "chrome-os",
+        "name": "Chrome OS"
+    },
+    {
+        "id": 8,
+        "slug": "android",
+        "name": "Android"
+    },
+    {
+        "id": 9,
+        "slug": "linux-arch",
+        "name": "Arch Linux"
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "pageviewsonline_useragentlookuptable",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node src/test.js",
+    "build": "node src/sort.js && npm run test && npm run export",
+    "export": "npm run test && npm run export:java",
+    "export:java": "node src/export_java.js"
+  }
+}
