@@ -450,6 +450,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; arm_xx; android xx; sm-axxxe) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxxx yasearchbrowser/xx.xxx.x bropp/x.x yasearchapp/xx.xxx.x webomni mobile safari/xxx.xx",
+        "client_family": "yandex-browser",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; arm_xx; android xx; tecno bgxn) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.xx.x.xxx.xx mobile safari/xxx.xx",
         "client_family": "yandex-browser",
         "os_family": "android"

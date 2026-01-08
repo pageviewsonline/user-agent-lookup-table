@@ -7,7 +7,7 @@ import java.util.Map;
  * PageviewsOnline User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-08T12:54:31.721Z.
+ * Generated 2026-01-08T19:56:00.942Z.
  */
 
 public abstract class UserAgentsDatabase {
@@ -122,6 +122,7 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (linux; android xx; zxxxx build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; zxxxxn build/apxa.xxxxxx.xxx.ax) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx opx/x.x", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; arm_xx; android xx; brp-nxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.xx.x.xxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.YANDEX_BROWSER, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; arm_xx; android xx; sm-axxxe) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxxx yasearchbrowser/xx.xxx.x bropp/x.x yasearchapp/xx.xxx.x webomni mobile safari/xxx.xx", new UserAgentData(ClientFamily.YANDEX_BROWSER, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; arm_xx; android xx; tecno bgxn) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.xx.x.xxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.YANDEX_BROWSER, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x safari/xxx.x.xx", new UserAgentData(ClientFamily.SAFARI, OperatingSystemFamily.MACOS));
         agents.put("mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x.x safari/xxx.x.xx", new UserAgentData(ClientFamily.SAFARI, OperatingSystemFamily.MACOS));
