@@ -3,8 +3,9 @@
 This repository contains a normalized, curated dataset of user agent strings, stored as JSON files and designed to be used
 as a lookup table in order to derive simple user agent data, such as the user agent client and operating system.
 
-It is used as a component of [PageviewsOnline](https://www.pageviewsonline), but is published here for
-general-purpose use.
+It is used as a component of
+[PageviewsOnline](https://www.pageviews.online/?utm_source=lookup-github-repo&utm_medium=link&utm_campaign=readme),
+but is published here for general-purpose use.
 
 The dataset is complemented by simple helper scripts to validate the data and export it into other formats or programming
 languages (such as Java).
@@ -177,7 +178,7 @@ Consumers should treat results as best-effort hints, not contractual guarantees.
 
 ## License
 
-This project **and its data** are released under the 
+This project and its data are released under the
 [Apache License 2.0 (Apache-2.0)](https://www.tldrlegal.com/license/apache-license-2-0-apache-2-0).
 
 Commercial use, modification, and redistribution are permitted.
@@ -190,10 +191,10 @@ Contributions are welcome and appreciated.
 
 ## Trademark
 
-**PageviewsOnline**, **Two-Dot-Oh**, and any associated logos, service names, or branding are trademarks of Two-Dot-Oh.
+PageviewsOnline, Two-Dot-Oh, and any associated logos, service names, or branding are trademarks of Two-Dot-Oh.
 
-This project is open source; however, use of the **PageviewsOnline** name or any associated branding in connection
-with a product, service, or offering is **not permitted** without prior written consent.
+This project is open source; however, use of the PageviewsOnline name or any associated branding in connection
+with a product, service, or offering is not permitted without prior written consent.
 
 Forks and derivative works must use a different name and branding and must not imply endorsement by or affiliation
 with PageviewsOnline or Two-Dot-Oh.

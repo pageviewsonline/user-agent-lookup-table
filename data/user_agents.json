@@ -150,6 +150,11 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x_xx like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxhxxx instagram xxx.x.x.xx.xx (iphonexx,x; ios xx_x_xx; en_us; en; scale=x.xx; xxxxxxxxx; iabmv/x; xxxxxxxxx) safari/xxx.x",
+        "client_family": "instagram-app",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x_xx like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x.x mobile/xxexxx safari/xxx.x",
         "client_family": "safari",
         "os_family": "ios"
@@ -221,6 +226,16 @@
     },
     {
         "id": "mozilla/x.x (linux; android xx; hdxxxx build/qkqx.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xx.x.xxxx.xxx mobile safari/xxx.xx  aweme_xxxxxx jssdk/x.x nettype/wifi  appname/aweme app_version/xx.x.x bytelocale/zh-cn region/...",
+        "client_family": "tiktok-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; hdxxxx build/qkqx.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xx.x.xxxx.xxx mobile safari/xxx.xx  aweme_xxxxxx jssdk/x.x nettype/wifi  appname/aweme app_version/xx.x.x bytelocale/zh-cn region/cn appskin/white apptheme/light bytedancewebview/dxaxxcx webview/xxxxxxxxxxxx",
+        "client_family": "tiktok-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; hdxxxx build/qkqx.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xx.x.xxxx.xxx mobile safari/xxx.xx aweme_xxxxxx jssdk/x.x nettype/wifi appname/aweme app_version/xx.x.x bytelocale/zh-cn region/cn appskin/white apptheme/light bytedancewebview/dxaxxcx webview/xxxxxxxxxxxx",
         "client_family": "tiktok-app",
         "os_family": "android"
     },
@@ -380,6 +395,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_nn_vxxxlx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
@@ -425,6 +445,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; xxxxxxlxg build/rpxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx buscari/xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; xxxxxxxxg build/upxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx opx/x.x",
         "client_family": "chrome",
         "os_family": "android"
@@ -446,6 +471,11 @@
     },
     {
         "id": "mozilla/x.x (linux; arm_xx; android xx; brp-nxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.xx.x.xxx.xx mobile safari/xxx.xx",
+        "client_family": "yandex-browser",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; arm_xx; android xx; rmxxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxxx yasearchbrowser/xx.xxx.x bropp/x.x yasearchapp/xx.xxx.x webomni mobile safari/xxx.xx",
         "client_family": "yandex-browser",
         "os_family": "android"
     },
@@ -556,6 +586,11 @@
     },
     {
         "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx opr/xxx.x.x.x (edition yx gx tr x)",
+        "client_family": "opera",
+        "os_family": "windows"
+    },
+    {
+        "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx opr/xxx.x.x.x (edition yx gx)",
         "client_family": "opera",
         "os_family": "windows"
     },
