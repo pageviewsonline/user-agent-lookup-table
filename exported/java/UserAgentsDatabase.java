@@ -7,7 +7,7 @@ import java.util.Map;
  * PageviewsOnline User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-10T08:41:59.248Z.
+ * Generated 2026-01-10T09:01:15.636Z.
  */
 
 public abstract class UserAgentsDatabase {
@@ -82,6 +82,7 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (linux; android xx; hdxxxx build/qkqx.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xx.x.xxxx.xxx mobile safari/xxx.xx  aweme_xxxxxx jssdk/x.x nettype/wifi  appname/aweme app_version/xx.x.x bytelocale/zh-cn region/cn appskin/white apptheme/light bytedancewebview/dxaxxcx webview/xxxxxxxxxxxx", new UserAgentData(ClientFamily.TIKTOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; hdxxxx build/qkqx.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xx.x.xxxx.xxx mobile safari/xxx.xx aweme_xxxxxx jssdk/x.x nettype/wifi appname/aweme app_version/xx.x.x bytelocale/zh-cn region/cn appskin/white apptheme/light bytedancewebview/dxaxxcx webview/xxxxxxxxxxxx", new UserAgentData(ClientFamily.TIKTOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; infinix xxxxx build/tpxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; infinix xxxxxb build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx edga/xxx.x.x.x", new UserAgentData(ClientFamily.MICROSOFT_EDGE, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx opr/xx.x.x.x", new UserAgentData(ClientFamily.OPERA, OperatingSystemFamily.ANDROID));
