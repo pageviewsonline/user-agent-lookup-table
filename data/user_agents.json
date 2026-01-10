@@ -180,6 +180,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android x.x; nexus x build/mraxxn) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android x.x; nexus x) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx",
         "client_family": "chrome",
         "os_family": "android"
@@ -312,6 +317,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; pixel x) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx",
         "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; redmi kxx build/qkqx.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
         "os_family": "android"
     },
     {

@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-10T09:01:15.638Z.
+ * Generated 2026-01-10T12:15:10.762Z.
  */
 
 public enum ClientFamily {
