@@ -193,5 +193,10 @@
         "id": 38,
         "slug": "meta-quest-browser",
         "name": "Meta Quest Browser"
+    },
+    {
+        "id": 39,
+        "slug": "quillbot-bot",
+        "name": "Quillbot Bot"
     }
 ]

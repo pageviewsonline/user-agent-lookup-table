@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-09T17:57:37.373Z.
+ * Generated 2026-01-10T08:41:59.251Z.
  */
 
 public enum ClientFamily {
@@ -47,7 +47,8 @@ public enum ClientFamily {
     CHROME_HEADLESS(35, "chrome-headless", "Chrome (Headless)"),
     YAHOO_JAPAN_APP(36, "yahoo-japan-app", "Yahoo Japan App"),
     ABEVALBOT_BOT(37, "abevalbot-bot", "ABEvalBot"),
-    META_QUEST_BROWSER(38, "meta-quest-browser", "Meta Quest Browser");
+    META_QUEST_BROWSER(38, "meta-quest-browser", "Meta Quest Browser"),
+    QUILLBOT_BOT(39, "quillbot-bot", "Quillbot Bot");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

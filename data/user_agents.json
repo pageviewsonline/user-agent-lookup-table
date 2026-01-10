@@ -80,6 +80,11 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x ddg/xx.x",
+        "client_family": "safari",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x opt/x.x.x",
         "client_family": "opera",
         "os_family": "ios"
@@ -390,12 +395,22 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; vivo xxxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; vog-lxx; hmscore x.xx.x.xxx; gmscore xx.xx.xx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx huaweibrowser/xx.x.x.xxx mobile safari/xxx.xx",
         "client_family": "chrome",
         "os_family": "android"
     },
     {
         "id": "mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_nn_vxxxlx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_nonfc; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
     },
@@ -495,13 +510,28 @@
         "os_family": "macos"
     },
     {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x safari/xxx.x.xx ddg/xx.x",
+        "client_family": "safari",
+        "os_family": "macos"
+    },
+    {
         "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x.x safari/xxx.x.xx",
+        "client_family": "safari",
+        "os_family": "macos"
+    },
+    {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.xx safari/xxx.x.xx",
         "client_family": "safari",
         "os_family": "macos"
     },
     {
         "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx",
         "client_family": "chrome",
+        "os_family": "macos"
+    },
+    {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx iubenda-radar/x.x.x",
+        "client_family": "iubenda-radar-bot",
         "os_family": "macos"
     },
     {
@@ -672,6 +702,11 @@
     {
         "id": "mozilla/x.x applewebkit/xxx.xx (khtml, like gecko; compatible; abevalbot/x.x) version/xx.x.x safari/xxx.x.xx",
         "client_family": "abevalbot-bot",
+        "os_family": "unknown"
+    },
+    {
+        "id": "quillbot.com",
+        "client_family": "quillbot-bot",
         "os_family": "unknown"
     },
     {
