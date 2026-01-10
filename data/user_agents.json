@@ -265,6 +265,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; ixxxx build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx",
         "client_family": "chrome",
         "os_family": "android"
