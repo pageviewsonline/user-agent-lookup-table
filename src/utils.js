@@ -8,7 +8,7 @@ export function writeFile( filename, contents ) {
 export function getSourceCodeHeaderComment() {
     let code = "";
     code += '/*\n';
-    code += ' * PageviewsOnline User Agent Lookup Table\n';
+    code += ' * PageviewsOnline Site Analytics User Agent Lookup Table\n';
     code += ' * https://github.com/pageviewsonline/user-agent-lookup-table/\n';
     code += ' *\n';
     code += ` * Generated ${new Date().toISOString()}.\n`;

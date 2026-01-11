@@ -198,5 +198,10 @@
         "id": 39,
         "slug": "quillbot-bot",
         "name": "Quillbot Bot"
+    },
+    {
+        "id": 40,
+        "slug": "yisouspider-bot",
+        "name": "YisouSpider Web Crawler Bot"
     }
 ]

@@ -30,6 +30,11 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xx mobile/xxexxx safari/xxx.x",
+        "client_family": "chrome",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xxx mobile/xxexxx safari/xxx.x",
         "client_family": "chrome",
         "os_family": "ios"
@@ -42,6 +47,11 @@
     {
         "id": "mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x",
         "client_family": "safari",
+        "os_family": "ios"
+    },
+    {
+        "id": "mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x opt/x.x.x",
+        "client_family": "opera-touch",
         "os_family": "ios"
     },
     {
@@ -315,6 +325,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; motorola edge xx fusion build/wxvcxxh.xx-xx-xx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; motorola edge xx stylus build/vxvbxx.xx-xxx-x; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
@@ -365,6 +380,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; sm-axxxg build/tpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]",
+        "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; sm-axxxm build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx[fban/ema;fblc/es_la;fbav/xxx.x.x.xx.xxx;fbcx/modulariab;]",
         "client_family": "facebook-app",
         "os_family": "android"
@@ -401,6 +421,11 @@
     },
     {
         "id": "mozilla/x.x (linux; android xx; sm-mxxxf build/spxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]",
+        "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; sm-mxxxg build/tpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]",
         "client_family": "facebook-app",
         "os_family": "android"
     },
@@ -445,6 +470,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_vxxxlx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
@@ -470,6 +500,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; vxxxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; xxxxernxci build/bpxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
@@ -480,7 +515,17 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; xxxxxpcxxi build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]",
+        "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; xxxxxradxg build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]",
+        "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; xxxxxraxea build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx[fban/ema;fblc/en_us;fbav/xxx.x.x.x.xxx;fbcx/modulariab;]",
         "client_family": "facebook-app",
         "os_family": "android"
     },
@@ -747,6 +792,11 @@
     {
         "id": "sogou web spider/x.x",
         "client_family": "sogou-web-spider-bot",
+        "os_family": "unknown"
+    },
+    {
+        "id": "yisouspider",
+        "client_family": "yisouspider-bot",
         "os_family": "unknown"
     }
 ]

@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * PageviewsOnline User Agent Lookup Table
+ * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-10T14:29:37.521Z.
+ * Generated 2026-01-11T08:39:50.510Z.
  */
 
 public abstract class UserAgentsDatabase {
@@ -38,9 +38,11 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (compatible; yadirectfetcher/x.x; +http://yandex.com/bots) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x", new UserAgentData(ClientFamily.YANDEX_SEARCH_BOT, OperatingSystemFamily.UNKNOWN));
         agents.put("mozilla/x.x (compatible; yandexbot/x.x; +http://yandex.com/bots) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x", new UserAgentData(ClientFamily.YANDEX_SEARCH_BOT, OperatingSystemFamily.UNKNOWN));
         agents.put("mozilla/x.x (ipad; cpu os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.SAFARI, OperatingSystemFamily.IOS));
+        agents.put("mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xx mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.IOS));
         agents.put("mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xxx mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.IOS));
         agents.put("mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) gsa/xxx.x.xxxxxxxxx mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.GOOGLE_SEARCH_APP, OperatingSystemFamily.IOS));
         agents.put("mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.SAFARI, OperatingSystemFamily.IOS));
+        agents.put("mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x opt/x.x.x", new UserAgentData(ClientFamily.OPERA_TOUCH, OperatingSystemFamily.IOS));
         agents.put("mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) brave/x mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.BRAVE, OperatingSystemFamily.IOS));
         agents.put("mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xxx mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.MACOS));
         agents.put("mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) fxios/xxx.x  mobile/xxexxx safari/xxx.x", new UserAgentData(ClientFamily.FIREFOX, OperatingSystemFamily.IOS));
@@ -95,6 +97,7 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (linux; android xx; moto gxx xg build/vxugsxxh.xx-xx-x-x; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; moto gxx xg build/vxuuixx.xx-xx-x-x-x; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; moto gxx xg build/vxuuixx.xx-xx-x-x-x; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; motorola edge xx fusion build/wxvcxxh.xx-xx-xx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; motorola edge xx stylus build/vxvbxx.xx-xxx-x; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; mx_xg build/vx_xxxxxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; pixel x) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
@@ -105,6 +108,7 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (linux; android xx; rmxxxxx build/spxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-axxxb build/bpxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-axxxf build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; sm-axxxg build/tpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-axxxm build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx[fban/ema;fblc/es_la;fbav/xxx.x.x.xx.xxx;fbcx/modulariab;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-axxxm build/apxa.xxxxxx.xxx.ax) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-axxxm build/tpxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
@@ -113,6 +117,7 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (linux; android xx; sm-gxxxb build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-mxxxf build/qpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx[fban/ema;fblc/en_us;fbav/xxx.x.x.xx.xxx;fbcx/modulariab;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-mxxxf build/spxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; sm-mxxxg build/tpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-nxxxf build/tpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; sm-sxxxb build/bpxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xxx;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; tecno kixk) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
@@ -121,14 +126,18 @@ public abstract class UserAgentsDatabase {
         agents.put("mozilla/x.x (linux; android xx; vog-lxx; hmscore x.xx.x.xxx; gmscore xx.xx.xx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx huaweibrowser/xx.x.x.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_nn_vxxxlx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_nonfc; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax_vxxxlx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/spxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/tpxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; vxxxx build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; vxxxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; xxxxernxci build/bpxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx", new UserAgentData(ClientFamily.ANDROID_WEBVIEW, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; xxxxfpcaxg build/tpxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx opx/x.x", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; xxxxxpcxxi build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; xxxxxradxg build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
+        agents.put("mozilla/x.x (linux; android xx; xxxxxraxea build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx[fban/ema;fblc/en_us;fbav/xxx.x.x.x.xxx;fbcx/modulariab;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; xxxxxrnxxl build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]", new UserAgentData(ClientFamily.FACEBOOK_APP, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; xxxxxxlxg build/rpxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx buscari/xx", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
         agents.put("mozilla/x.x (linux; android xx; xxxxxxxxg build/upxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx opx/x.x", new UserAgentData(ClientFamily.CHROME, OperatingSystemFamily.ANDROID));
@@ -182,6 +191,7 @@ public abstract class UserAgentsDatabase {
         agents.put("quillbot.com", new UserAgentData(ClientFamily.QUILLBOT_BOT, OperatingSystemFamily.UNKNOWN));
         agents.put("sebot-wa", new UserAgentData(ClientFamily.SEBOT_WA_BOT, OperatingSystemFamily.UNKNOWN));
         agents.put("sogou web spider/x.x", new UserAgentData(ClientFamily.SOGOU_WEB_SPIDER_BOT, OperatingSystemFamily.UNKNOWN));
+        agents.put("yisouspider", new UserAgentData(ClientFamily.YISOUSPIDER_BOT, OperatingSystemFamily.UNKNOWN));
     }
 
 }

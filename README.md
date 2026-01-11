@@ -33,9 +33,9 @@ Heuristic parsing and complex regular expressions often trade predictability for
 
 This project favors:
 
-- transparency over magic
-- curated data over opaque logic
-- explainable results over speculative detection
+- Transparency over magic
+- Curated data over opaque logic
+- Explainable results over speculative detection
 
 
 
@@ -59,7 +59,7 @@ numbers and casing differences) while preserving the structural and semantic mea
 
 User agent strings are normalized using the following steps:
 
-1) Replace all numeric digits (`0–9`) with the placeholder character `x`
+1) Replace all numeric digits (`0-9`) with the placeholder character `x`
 This removes noise caused by version changes while preserving token structure and length.
 
 2) Convert the entire string to lowercase
@@ -92,9 +92,9 @@ agent changes.
 
 Each normalized user agent entry includes:
 
-- `id` – The normalized user agent string
-- `client_family` – High-level client classification (e.g. browser, bot, app)
-- `os_family` – High-level operating system classification
+- `id` - The normalized user agent string
+- `client_family` - High-level client classification (e.g. browser, bot, app)
+- `os_family` - High-level operating system classification
 
 Exact fields may evolve over time as the dataset grows.
 
@@ -122,7 +122,7 @@ along with any relevant classification data.
 
 Once your changes are ready, please submit a pull request containing the necessary data and/or code updates.
 
-Even partial or incomplete information is useful and appreciated—every contribution helps improve coverage and long-term
+Even partial or incomplete information is useful and appreciated - every contribution helps improve coverage and long-term
 reliability.
 
 
