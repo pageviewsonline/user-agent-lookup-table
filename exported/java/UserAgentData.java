@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-11T08:51:40.106Z.
+ * Generated 2026-01-13T20:09:23.283Z.
  */
 
 public class UserAgentData {

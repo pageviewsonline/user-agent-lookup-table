@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-11T08:51:40.103Z.
+ * Generated 2026-01-13T20:09:23.278Z.
  */
 
 public enum ClientFamily {
@@ -34,7 +34,7 @@ public enum ClientFamily {
     GOOGLE_SEARCH_APP(22, "google-search-app", "Google Search App"),
     BAIDU_SPIDER_BOT(23, "baidu-spider-bot", "Baidu Spider Bot"),
     INSTAGRAM_APP(24, "instagram-app", "Instagram App"),
-    WEBKIT_WEBVIEW(25, "webkit-webview", "WebKit WebView"),
+    WEBKIT_BROWSER(25, "webkit-browser", "WebKit Browser"),
     SOGOU_WEB_SPIDER_BOT(26, "sogou-web-spider-bot", "Sogou Web Spider Bot"),
     WECHAT_APP(27, "wechat-app", "WeChat App"),
     TIKTOK_APP(28, "tiktok-app", "TikTok App"),
@@ -50,7 +50,10 @@ public enum ClientFamily {
     META_QUEST_BROWSER(38, "meta-quest-browser", "Meta Quest Browser"),
     QUILLBOT_BOT(39, "quillbot-bot", "Quillbot Bot"),
     YISOUSPIDER_BOT(40, "yisouspider-bot", "YisouSpider Web Crawler Bot"),
-    OPERA_GX(41, "opera-gx", "Opera GX");
+    OPERA_GX(41, "opera-gx", "Opera GX"),
+    NEWSAI_BOT(42, "newsai-bot", "NewsAI Bot"),
+    ULTRALIGHT_APP(43, "ultralight-app", "Ultralight Photo Video Editor App"),
+    INTERNET_EXPLORER(44, "internet-explorer", "Internet Explorer");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

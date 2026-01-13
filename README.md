@@ -4,7 +4,7 @@ This repository contains a normalized, curated dataset of user agent strings, st
 as a lookup table in order to derive simple user agent data, such as the user agent client and operating system.
 
 It is used as a component of
-[PageviewsOnline](https://www.pageviews.online/?utm_source=lookup-github-repo&utm_medium=link&utm_campaign=readme),
+[PageviewsOnline Site Analytics](https://www.pageviews.online/?utm_source=lookup-github-repo&utm_medium=link&utm_campaign=readme),
 but is published here for general-purpose use.
 
 The dataset is complemented by simple helper scripts to validate the data and export it into other formats or programming
@@ -16,8 +16,8 @@ languages (such as Java).
 
 ## Project Philosophy
 
-The goal of this project is **not** to provide a foolproof or perfectly accurate user-agent detection system,
-but rather a **practical, best-effort solution** that improves over time through real-world usage and
+The goal of this project is not to provide a foolproof or perfectly accurate user-agent detection system,
+but rather a practical, best-effort solution that improves over time through real-world usage and
 community contributions.
 
 User agent detection is inherently imperfect. Instead of chasing complete accuracy, this project focuses on being:

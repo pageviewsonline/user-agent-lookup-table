@@ -126,8 +126,8 @@
     },
     {
         "id": 25,
-        "slug": "webkit-webview",
-        "name": "WebKit WebView"
+        "slug": "webkit-browser",
+        "name": "WebKit Browser"
     },
     {
         "id": 26,
@@ -208,5 +208,20 @@
         "id": 41,
         "slug": "opera-gx",
         "name": "Opera GX"
+    },
+    {
+        "id": 42,
+        "slug": "newsai-bot",
+        "name": "NewsAI Bot"
+    },
+    {
+        "id": 43,
+        "slug": "ultralight-app",
+        "name": "Ultralight Photo Video Editor App"
+    },
+    {
+        "id": 44,
+        "slug": "internet-explorer",
+        "name": "Internet Explorer"
     }
 ]
