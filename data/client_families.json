@@ -2,226 +2,271 @@
     {
         "id": 0,
         "slug": "unknown",
-        "name": "Unknown"
+        "name": "Unknown",
+        "url": ""
     },
     {
         "id": 1,
         "slug": "firefox",
-        "name": "Mozilla Firefox"
+        "name": "Mozilla Firefox",
+        "url": "https://www.firefox.com/"
     },
     {
         "id": 2,
         "slug": "microsoft-edge",
-        "name": "Microsoft Edge"
+        "name": "Microsoft Edge",
+        "url": "https://www.microsoft.com/edge/"
     },
     {
         "id": 3,
         "slug": "chrome",
-        "name": "Google Chrome"
+        "name": "Google Chrome",
+        "url": "https://www.google.com/chrome/"
     },
     {
         "id": 4,
         "slug": "opera",
-        "name": "Opera"
+        "name": "Opera",
+        "url": "https://www.opera.com/"
     },
     {
         "id": 5,
         "slug": "safari",
-        "name": "Safari"
+        "name": "Safari",
+        "url":  "https://www.apple.com/safari/"
     },
     {
         "id": 6,
         "slug": "brave",
-        "name": "Brave"
+        "name": "Brave",
+        "url":  "https://brave.com/"
     },
     {
         "id": 7,
         "slug": "yandex-browser",
-        "name": "Yandex Browser"
+        "name": "Yandex Browser",
+        "url": "https://browser.yandex.com/"
     },
     {
         "id": 8,
         "slug": "mshots-bot",
-        "name": "MShots Bot"
+        "name": "MShots Bot",
+        "url": ""
     },
     {
         "id": 9,
         "slug": "google-crawler-bot",
-        "name": "Google Crawler Bot"
+        "name": "Google Crawler Bot",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/googlebot"
     },
     {
         "id": 10,
         "slug": "duckduckgo-bot",
-        "name": "DuckDuckGo Bot"
+        "name": "DuckDuckGo Bot",
+        "url": "https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot"
     },
     {
         "id": 11,
         "slug": "naver-whale",
-        "name": "Naver Whale Browser"
+        "name": "Naver Whale Browser",
+        "url":  "https://whale.naver.com/"
     },
     {
         "id": 12,
         "slug": "facebook-app",
-        "name": "Facebook App"
+        "name": "Facebook App",
+        "url":  "https://www.facebook.com/"
     },
     {
         "id": 13,
         "slug": "valve-steam-overlay",
-        "name": "Valve Steam Overlay"
+        "name": "Valve Steam Overlay",
+        "url": "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"
     },
     {
         "id": 14,
-        "slug": "whale-browser",
-        "name": "Whale Browser"
+        "slug": "opennews-app",
+        "name": "Open News App",
+        "url": ""
     },
     {
         "id": 15,
         "slug": "xiaomi-miui-browser",
-        "name": "Xiaomi MIUI Browser"
+        "name": "Xiaomi MIUI Browser",
+        "url":  "https://trust.mi.com/docs/miui-privacy-white-paper-global/4/7"
     },
     {
         "id": 16,
         "slug": "samsung-browser",
-        "name": "Samsung Browser"
+        "name": "Samsung Browser",
+        "url":  "https://browser.samsung.com/"
     },
     {
         "id": 17,
         "slug": "android-webview",
-        "name": "Android WebView"
+        "name": "Android WebView",
+        "url":  "https://developer.android.com/reference/android/webkit/WebView"
     },
     {
         "id": 18,
         "slug": "speedcurve-bot",
-        "name": "SpeedCurve Speedtester Bot"
+        "name": "SpeedCurve Speedtester Bot",
+        "url": "https://pagevitals.com/"
     },
     {
         "id": 19,
         "slug": "bing-bot",
-        "name": "Microsoft Bing Bot"
+        "name": "Microsoft Bing Bot",
+        "url":  "https://www.microsoft.com/en-us/bing"
     },
     {
         "id": 20,
         "slug": "iubenda-radar-bot",
-        "name": "Iubenda Radar Bot"
+        "name": "Iubenda Radar Bot",
+        "url":  "https://www.iubenda.com/"
     },
     {
         "id": 21,
         "slug": "bitsight-bot",
-        "name": "BitSight Bot"
+        "name": "BitSight Bot",
+        "url":  "https://www.bitsight.com/"
     },
     {
         "id": 22,
         "slug": "google-search-app",
-        "name": "Google Search App"
+        "name": "Google Search App",
+        "url":  "https://search.google/google-app/"
     },
     {
         "id": 23,
         "slug": "baidu-spider-bot",
-        "name": "Baidu Spider Bot"
+        "name": "Baidu Spider Bot",
+        "url":  "https://www.baidu.com/search/spider.htm"
     },
     {
         "id": 24,
         "slug": "instagram-app",
-        "name": "Instagram App"
+        "name": "Instagram App",
+        "url":  "https://www.instagram.com/"
     },
     {
         "id": 25,
         "slug": "webkit-browser",
-        "name": "WebKit Browser"
+        "name": "WebKit Browser",
+        "url":  "https://webkit.org/"
     },
     {
         "id": 26,
         "slug": "sogou-web-spider-bot",
-        "name": "Sogou Web Spider Bot"
+        "name": "Sogou Web Spider Bot",
+        "url": "https://www.sogou.com/"
     },
     {
         "id": 27,
         "slug": "wechat-app",
-        "name": "WeChat App"
+        "name": "WeChat App",
+        "url":  "https://www.wechat.com/"
     },
     {
         "id": 28,
         "slug": "tiktok-app",
-        "name": "TikTok App"
+        "name": "TikTok App",
+        "url": "https://www.tiktok.com/en/"
     },
     {
         "id": 29,
         "slug": "vivo-browser",
-        "name": "Vivo Browser"
+        "name": "Vivo Browser",
+        "url": "https://www.vivo.com/"
     },
     {
         "id": 30,
         "slug": "yandex-search-bot",
-        "name": "Yandex Search Bot"
+        "name": "Yandex Search Bot",
+        "url": "https://yandex.com/"
     },
     {
         "id": 31,
         "slug": "dataprovider-bot",
-        "name": "Dataprovider.com Bot"
+        "name": "Dataprovider.com Bot",
+        "url":  "https://www.dataprovider.com/"
     },
     {
         "id": 32,
         "slug": "electron-webview",
-        "name": "Electron WebView"
+        "name": "Electron WebView",
+        "url": "https://www.electronjs.org/"
     },
     {
         "id": 33,
         "slug": "sebot-wa-bot",
-        "name": "SEBot-WA"
+        "name": "SEBot-WA",
+        "url": ""
     },
     {
         "id": 34,
         "slug": "opera-touch",
-        "name": "Opera Touch"
+        "name": "Opera Touch",
+        "url": "https://www.opera.com/mobile/touch"
     },
     {
         "id": 35,
         "slug": "chrome-headless",
-        "name": "Chrome (Headless)"
+        "name": "Chrome (Headless)",
+        "url": "https://developer.chrome.com/docs/chromium/headless"
     },
     {
         "id": 36,
         "slug": "yahoo-japan-app",
-        "name": "Yahoo Japan App"
+        "name": "Yahoo Japan App",
+        "url": "https://promo-mobile.yahoo.co.jp/yjapp/"
     },
     {
         "id": 37,
         "slug": "abevalbot-bot",
-        "name": "ABEvalBot"
+        "name": "ABEvalBot",
+        "url":""
     },
     {
         "id": 38,
         "slug": "meta-quest-browser",
-        "name": "Meta Quest Browser"
+        "name": "Meta Quest Browser",
+       "url": "https://www.meta.com/en-gb/experiences/browser/1916519981771802/"
     },
     {
         "id": 39,
         "slug": "quillbot-bot",
-        "name": "Quillbot Bot"
+        "name": "Quillbot Bot",
+        "url": "https://quillbot.com/"
     },
     {
         "id": 40,
         "slug": "yisouspider-bot",
-        "name": "YisouSpider Web Crawler Bot"
+        "name": "YisouSpider Web Crawler Bot",
+        "url": "https://zhanzhang.sm.cn/"
     },
     {
         "id": 41,
         "slug": "opera-gx",
-        "name": "Opera GX"
+        "name": "Opera GX",
+        "url":"https://www.opera.com/gx/gx-browser"
     },
     {
         "id": 42,
         "slug": "newsai-bot",
-        "name": "NewsAI Bot"
+        "name": "NewsAI Bot",
+        "url": "https://www.newsai.me/"
     },
     {
         "id": 43,
         "slug": "ultralight-app",
-        "name": "Ultralight Photo Video Editor App"
+        "name": "Ultralight Photo Video Editor App",
+        "url": "https://www.ultralightapp.com/"
     },
     {
         "id": 44,
         "slug": "internet-explorer",
-        "name": "Internet Explorer"
+        "name": "Internet Explorer",
+        "url":  "https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70"
     }
 ]

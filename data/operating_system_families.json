@@ -2,51 +2,61 @@
     {
         "id": 0,
         "slug": "unknown",
-        "name": "Unknown"
+        "name": "Unknown",
+        "url": ""
     },
     {
         "id": 1,
         "slug": "ios",
-        "name": "iOS"
+        "name": "iOS",
+        "url": "https://www.apple.com/os/ios/"
     },
     {
         "id": 2,
         "slug": "linux",
-        "name": "Linux"
+        "name": "Linux",
+        "url": "https://kernel.org/"
     },
     {
         "id": 3,
         "slug": "android-fire-os",
-        "name": "Amazon Fire OS"
+        "name": "Amazon Fire OS",
+        "url": "https://developer.amazon.com/docs/fire-tv/fire-os-overview.html"
     },
     {
         "id": 4,
         "slug": "windows",
-        "name": "Windows"
+        "name": "Windows",
+        "url": "https://www.microsoft.com/en-us/windows"
     },
     {
         "id": 5,
         "slug": "macos",
-        "name": "macOS"
+        "name": "macOS",
+        "url": "https://www.apple.com/os/macos/"
     },
     {
         "id": 6,
         "slug": "linux-ubuntu",
-        "name": "Ubuntu"
+        "name": "Ubuntu",
+        "url":  "https://ubuntu.com/"
     },
     {
         "id": 7,
         "slug": "chrome-os",
-        "name": "Chrome OS"
+        "name": "Chrome OS",
+        "url": "https://chromeos.google/"
     },
     {
         "id": 8,
         "slug": "android",
-        "name": "Android"
+        "name": "Android",
+        "url": "https://www.android.com/"
     },
     {
         "id": 9,
         "slug": "linux-arch",
-        "name": "Arch Linux"
+        "name": "Arch Linux",
+        "url": "https://archlinux.org/"
     }
 ]

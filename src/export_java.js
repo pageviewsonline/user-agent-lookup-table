@@ -61,7 +61,7 @@ function exportClientFamilies() {
     for( let i = 0; i < clientFamilies.length; i++ ) {
         const osf = clientFamilies[i];
         const delimiter = (i + 1) < clientFamilies.length ? "," : ";";
-        code += `    ${createEnumName(osf.slug)}(${osf.id}, "${osf.slug}", "${osf.name}")${delimiter}\n`;
+        code += `    ${createEnumName(osf.slug)}(${osf.id}, "${osf.slug}", "${osf.name}", "${osf.url}")${delimiter}\n`;
     }
     code += '\n';
     code += '    public static ClientFamily create(int id) throws UnknownClientFamilyException {\n';
@@ -76,11 +76,13 @@ function exportClientFamilies() {
     code += '    private final int id;\n';
     code += '    private final String slug;\n';
     code += '    private final String name;\n';
+    code += '    private final String url;\n';
     code += '\n';
-    code += '    ClientFamily(int id, String slug, String name) {\n';
+    code += '    ClientFamily(int id, String slug, String name, String url) {\n';
     code += '        this.id = id;\n';
     code += '        this.slug = slug;\n';
     code += '        this.name = name;\n';
+    code += '        this.url = url;\n';
     code += '    }\n';
     code += '\n';
     code += '    public int getID() {\n';
@@ -93,6 +95,10 @@ function exportClientFamilies() {
     code += '\n';
     code += '    public String getName() {\n';
     code += '        return this.name;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public String getURL() {\n';
+    code += '        return this.url;\n';
     code += '    }\n';
     code += '\n';
     code += '}\n';
@@ -113,7 +119,7 @@ function exportOperatingSystemFamilies() {
     for( let i = 0; i < operatingSystemFamilies.length; i++ ) {
         const osf = operatingSystemFamilies[i];
         const delimiter = (i + 1) < operatingSystemFamilies.length ? "," : ";";
-        code += `    ${createEnumName(osf.slug)}(${osf.id}, "${osf.slug}", "${osf.name}")${delimiter}\n`;
+        code += `    ${createEnumName(osf.slug)}(${osf.id}, "${osf.slug}", "${osf.name}", "${osf.url}")${delimiter}\n`;
     }
     code += '\n';
     code += '    public static OperatingSystemFamily create(int id) throws UnknownOperatingSystemException {\n';
@@ -128,11 +134,13 @@ function exportOperatingSystemFamilies() {
     code += '    private final int id;\n';
     code += '    private final String slug;\n';
     code += '    private final String name;\n';
+    code += '    private final String url;\n';
     code += '\n';
-    code += '    OperatingSystemFamily(int id, String slug, String name) {\n';
+    code += '    OperatingSystemFamily(int id, String slug, String name, String url) {\n';
     code += '        this.id = id;\n';
     code += '        this.slug = slug;\n';
     code += '        this.name = name;\n';
+    code += '        this.url = url;\n';
     code += '    }\n';
     code += '\n';
     code += '    public int getID() {\n';
@@ -145,6 +153,10 @@ function exportOperatingSystemFamilies() {
     code += '\n';
     code += '    public String getName() {\n';
     code += '        return this.name;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public String getURL() {\n';
+    code += '        return this.url;\n';
     code += '    }\n';
     code += '\n';
     code += '}\n';

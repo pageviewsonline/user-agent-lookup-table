@@ -22,6 +22,9 @@ console.log("Starting tests...");
     }
 })();
 
+/*
+ * Test user agents are sorted.
+ */
 (() => {
     const sorted = userAgents.slice().sort(( a, b ) => a.id.localeCompare(b.id));
     if( JSON.stringify(userAgents) !== JSON.stringify(sorted) ) {
@@ -41,34 +44,42 @@ console.log("Starting tests...");
         }
 
         if( getClientFamilyBySlug(userAgent.client_family) === undefined ) {
-            throw Error(`User agent "${userAgent.id}" has invalid client family "${userAgent.client_family}".`)
+            throw Error(`Invalid client family "${userAgent.client_family} for user agent "${userAgent.id}".`)
         }
 
         if( getOperatingSystemFamilyBySlug(userAgent.os_family) === undefined ) {
-            throw Error(`User agent "${userAgent.id}" has invalid operating system family "${userAgent.os_family}".`)
+            throw Error(`Invalid operating system "${userAgent.os_family} for user agent "${userAgent.id}".`)
         }
 
     }
 })();
 
 /*
- * Test that all client families are in order.
+ * Test each client family.
  */
 (() => {
     for( let i = 0; i < clientFamilies.length; i++ ) {
-        if( clientFamilies[i].id !== i ) {
-            throw Error(`Client family at index ${i} does not have correct id (${clientFamilies[0].id}).`)
+        const cf = clientFamilies[i];
+        if( cf.id !== i ) {
+            throw Error(`Client family at index ${i} does not have correct id (${cf.id}).`)
+        }
+        if( !Object.hasOwn(cf,"url")) {
+            throw Error(`Client family  ${cf.name} is missing URL property.`)
         }
     }
 })();
 
 /*
- * Test that all operating system families are in order.
+ *  Test each operating system family.
  */
 (() => {
     for( let i = 0; i < operatingSystemFamilies.length; i++ ) {
-        if( operatingSystemFamilies[i].id !== i ) {
-            throw Error(`Operating system family at index ${i} does not have correct id (${operatingSystemFamilies[0].id}).`)
+        const os = operatingSystemFamilies[i]
+        if( os.id !== i ) {
+            throw Error(`Operating system family at index ${i} does not have correct id (${os.id}).`)
+        }
+        if( !Object.hasOwn(os,"url")) {
+            throw Error(`Operating system ${os.name} is missing URL property.`)
         }
     }
 })();
