@@ -245,6 +245,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android x.x.x; cphxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android x.x.x; moto g (x)) applewebkit/xxx.xx (khtml like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx ptst/xxxxxx.xxxxxx",
         "client_family": "speedcurve-bot",
         "os_family": "android"
@@ -455,6 +460,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; redmi xa) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; redmi xxc build/apxa.xxxxxx.xxx.ax) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx xiaomi/miuibrowser/xx.xx.x-gn",
         "client_family": "xiaomi-miui-browser",
         "os_family": "android"
@@ -557,6 +567,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; sm-exxxb build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
         "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; sm-exxxb build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;] fbnv/xxx",
+        "client_family": "facebook-app",
         "os_family": "android"
     },
     {
@@ -712,6 +727,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; vxxxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
         "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; wod-lxx build/honorwdy-lxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;] fbnv/xxx",
+        "client_family": "facebook-app",
         "os_family": "android"
     },
     {
