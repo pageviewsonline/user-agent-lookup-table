@@ -29,7 +29,9 @@ function exportUserAgentsDatabase() {
     code += '\n';
     code += '    public static String normalize(String originalUserAgent) {\n';
     code += '\n';
-    code += '        String normalizedUserAgent = originalUserAgent.replaceAll("\\\\d", "x");\n';
+    code += '        String normalizedUserAgent = originalUserAgent;\n';
+    code += '        normalizedUserAgent = originalUserAgent.replaceAll("\\\"", "");\n';
+    code += '        normalizedUserAgent = originalUserAgent.replaceAll("\\\\d", "x");\n';
     code += '        normalizedUserAgent = normalizedUserAgent.toLowerCase();\n';
     code += '\n';
     code += '        return normalizedUserAgent;\n';

@@ -80,6 +80,11 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) fxios/xxx.x mobile/xxexxx safari/xxx.x",
+        "client_family": "firefox",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) gsa/xxx.x.xxxxxxxxx mobile/xxbxx safari/xxx.x",
         "client_family": "google-search-app",
         "os_family": "ios"
@@ -197,6 +202,11 @@
     {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x_xx like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) brave/x mobile/xxexxx safari/xxx.x",
         "client_family": "brave",
+        "os_family": "ios"
+    },
+    {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x_xx like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xxx mobile/xxexxx safari/xxx.x",
+        "client_family": "chrome",
         "os_family": "ios"
     },
     {
@@ -685,6 +695,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; vxxxx build/upxa.xxxxxx.xxx_in; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; vxxxx build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
@@ -745,6 +760,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; xxxxxxsg build/spxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx channel/release appname/ultralite app_version/xx.x.x region/za bytelocale/en bytefulllocale/en spark/x.x.x-alpha.xx appversion/xx.x.x  pia/x.x.x",
+        "client_family": "ultralight-app",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; xxxxxxxxg build/upxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx opx/x.x",
         "client_family": "chrome",
         "os_family": "android"
@@ -788,6 +808,16 @@
         "id": "mozilla/x.x (linux; arm_xx; android xx; tecno bgxn) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.xx.x.xxx.xx mobile safari/xxx.xx",
         "client_family": "yandex-browser",
         "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; arm_xx; android xx; xxxxxraxxg) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.xx.x.xxx.xx mobile safari/xxx.xx",
+        "client_family": "yandex-browser",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko)",
+        "client_family": "webkit-browser",
+        "os_family": "macos"
     },
     {
         "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x safari/xxx.x.xx",
