@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-18T09:27:12.086Z.
+ * Generated 2026-01-18T13:01:47.759Z.
  */
 
 public enum OperatingSystemFamily {
