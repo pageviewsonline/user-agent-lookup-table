@@ -575,6 +575,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; sm-exxxb build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "android-webview",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; sm-exxxb build/upxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;] fbnv/xxx",
         "client_family": "facebook-app",
         "os_family": "android"
@@ -737,6 +742,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; wod-lxx build/honorwdy-lxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;] fbnv/xxx",
         "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; xxx build/upxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
         "os_family": "android"
     },
     {
