@@ -268,5 +268,17 @@
         "slug": "internet-explorer",
         "name": "Internet Explorer",
         "url":  "https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70"
+    },
+    {
+        "id": 45,
+        "slug": "expo-research-bot",
+        "name": "Expo React Native Bot",
+        "url":  "https://www.expoaichatbot.com/"
+    },
+    {
+        "id": 46,
+        "slug": "duckduckgo-browser",
+        "name": "DuckDuckGo Browser",
+        "url":  "https://duckduckgo.com/"
     }
 ]

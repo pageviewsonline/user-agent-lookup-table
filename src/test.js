@@ -44,11 +44,11 @@ console.log("Starting tests...");
         }
 
         if( getClientFamilyBySlug(userAgent.client_family) === undefined ) {
-            throw Error(`Invalid client family "${userAgent.client_family} for user agent "${userAgent.id}".`)
+            throw Error(`Invalid client family "${userAgent.client_family}" for user agent "${userAgent.id}".`)
         }
 
         if( getOperatingSystemFamilyBySlug(userAgent.os_family) === undefined ) {
-            throw Error(`Invalid operating system "${userAgent.os_family} for user agent "${userAgent.id}".`)
+            throw Error(`Invalid operating system "${userAgent.os_family}" for user agent "${userAgent.id}".`)
         }
 
     }

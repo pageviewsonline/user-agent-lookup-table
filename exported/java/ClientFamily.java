@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-18T13:20:01.328Z.
+ * Generated 2026-01-24T08:53:47.608Z.
  */
 
 public enum ClientFamily {
@@ -53,7 +53,9 @@ public enum ClientFamily {
     OPERA_GX(41, "opera-gx", "Opera GX", "https://www.opera.com/gx/gx-browser"),
     NEWSAI_BOT(42, "newsai-bot", "NewsAI Bot", "https://www.newsai.me/"),
     ULTRALIGHT_APP(43, "ultralight-app", "Ultralight Photo Video Editor App", "https://www.ultralightapp.com/"),
-    INTERNET_EXPLORER(44, "internet-explorer", "Internet Explorer", "https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70");
+    INTERNET_EXPLORER(44, "internet-explorer", "Internet Explorer", "https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70"),
+    EXPO_RESEARCH_BOT(45, "expo-research-bot", "Expo React Native Bot", "https://www.expoaichatbot.com/"),
+    DUCKDUCKGO_BROWSER(46, "duckduckgo-browser", "DuckDuckGo Browser", "https://duckduckgo.com/");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {
