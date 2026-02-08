@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-24T08:53:47.608Z.
+ * Generated 2026-02-08T09:58:26.838Z.
  */
 
 public enum ClientFamily {
@@ -55,7 +55,10 @@ public enum ClientFamily {
     ULTRALIGHT_APP(43, "ultralight-app", "Ultralight Photo Video Editor App", "https://www.ultralightapp.com/"),
     INTERNET_EXPLORER(44, "internet-explorer", "Internet Explorer", "https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70"),
     EXPO_RESEARCH_BOT(45, "expo-research-bot", "Expo React Native Bot", "https://www.expoaichatbot.com/"),
-    DUCKDUCKGO_BROWSER(46, "duckduckgo-browser", "DuckDuckGo Browser", "https://duckduckgo.com/");
+    DUCKDUCKGO_BROWSER(46, "duckduckgo-browser", "DuckDuckGo Browser", "https://duckduckgo.com/"),
+    SNAPCHAT_APP(47, "snapchat-app", "Snapchat", "https://www.snapchat.com/"),
+    SRWARE_IRON_BROWSER(48, "srware-iron-browser", "SRWare Iron Browser", "https://www.srware.net/iron/"),
+    STREAMLABS_DESKTOP(49, "streamlabs-desktop", "Streamlabs Desktop", "https://streamlabs.com/");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

@@ -280,5 +280,23 @@
         "slug": "duckduckgo-browser",
         "name": "DuckDuckGo Browser",
         "url":  "https://duckduckgo.com/"
+    },
+    {
+        "id": 47,
+        "slug": "snapchat-app",
+        "name": "Snapchat",
+        "url":  "https://www.snapchat.com/"
+    },
+    {
+        "id": 48,
+        "slug": "srware-iron-browser",
+        "name": "SRWare Iron Browser",
+        "url":  "https://www.srware.net/iron/"
+    },
+    {
+        "id": 49,
+        "slug": "streamlabs-desktop",
+        "name": "Streamlabs Desktop",
+        "url":  "https://streamlabs.com/"
     }
 ]

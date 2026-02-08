@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-01-24T08:53:47.610Z.
+ * Generated 2026-02-08T09:58:26.845Z.
  */
 
 public class UnknownClientFamilyException extends Exception {
