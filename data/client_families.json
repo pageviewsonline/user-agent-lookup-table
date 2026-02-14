@@ -67,7 +67,7 @@
     },
     {
         "id": 11,
-        "slug": "naver-whale",
+        "slug": "naver-whale-browser",
         "name": "Naver Whale Browser",
         "url":  "https://whale.naver.com/"
     },
@@ -298,5 +298,17 @@
         "slug": "streamlabs-desktop",
         "name": "Streamlabs Desktop",
         "url":  "https://streamlabs.com/"
+    },
+    {
+        "id": 50,
+        "slug": "google-gemini-app",
+        "name": "Google Gemini App",
+        "url":  "https://gemini.google.com/"
+    },
+    {
+        "id": 51,
+        "slug": "meta-browser",
+        "name": "Meta Browser",
+        "url":  "https://www.meta.com/"
     }
 ]

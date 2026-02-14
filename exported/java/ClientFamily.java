@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-02-08T09:58:26.838Z.
+ * Generated 2026-02-14T09:12:43.728Z.
  */
 
 public enum ClientFamily {
@@ -20,7 +20,7 @@ public enum ClientFamily {
     MSHOTS_BOT(8, "mshots-bot", "MShots Bot", ""),
     GOOGLE_CRAWLER_BOT(9, "google-crawler-bot", "Google Crawler Bot", "https://developers.google.com/search/docs/crawling-indexing/googlebot"),
     DUCKDUCKGO_BOT(10, "duckduckgo-bot", "DuckDuckGo Bot", "https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot"),
-    NAVER_WHALE(11, "naver-whale", "Naver Whale Browser", "https://whale.naver.com/"),
+    NAVER_WHALE_BROWSER(11, "naver-whale-browser", "Naver Whale Browser", "https://whale.naver.com/"),
     FACEBOOK_APP(12, "facebook-app", "Facebook App", "https://www.facebook.com/"),
     VALVE_STEAM_OVERLAY(13, "valve-steam-overlay", "Valve Steam Overlay", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"),
     OPENNEWS_APP(14, "opennews-app", "Open News App", ""),
@@ -58,7 +58,9 @@ public enum ClientFamily {
     DUCKDUCKGO_BROWSER(46, "duckduckgo-browser", "DuckDuckGo Browser", "https://duckduckgo.com/"),
     SNAPCHAT_APP(47, "snapchat-app", "Snapchat", "https://www.snapchat.com/"),
     SRWARE_IRON_BROWSER(48, "srware-iron-browser", "SRWare Iron Browser", "https://www.srware.net/iron/"),
-    STREAMLABS_DESKTOP(49, "streamlabs-desktop", "Streamlabs Desktop", "https://streamlabs.com/");
+    STREAMLABS_DESKTOP(49, "streamlabs-desktop", "Streamlabs Desktop", "https://streamlabs.com/"),
+    GOOGLE_GEMINI_APP(50, "google-gemini-app", "Google Gemini App", "https://gemini.google.com/"),
+    META_BROWSER(51, "meta-browser", "Meta Browser", "https://www.meta.com/");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {
