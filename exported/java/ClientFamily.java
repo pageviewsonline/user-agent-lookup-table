@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-02-14T09:12:43.728Z.
+ * Generated 2026-03-26T07:09:22.314Z.
  */
 
 public enum ClientFamily {
@@ -60,7 +60,9 @@ public enum ClientFamily {
     SRWARE_IRON_BROWSER(48, "srware-iron-browser", "SRWare Iron Browser", "https://www.srware.net/iron/"),
     STREAMLABS_DESKTOP(49, "streamlabs-desktop", "Streamlabs Desktop", "https://streamlabs.com/"),
     GOOGLE_GEMINI_APP(50, "google-gemini-app", "Google Gemini App", "https://gemini.google.com/"),
-    META_BROWSER(51, "meta-browser", "Meta Browser", "https://www.meta.com/");
+    META_BROWSER(51, "meta-browser", "Meta Browser", "https://www.meta.com/"),
+    AVAST_SECURE_BROWSER(52, "avast-secure-browser", "Avast Secure Browser", "https://www.avast.com/"),
+    HEYTAP_BROWSER(53, "heytap-browser", "HeyTap Browser", "https://www.heytap.com/");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

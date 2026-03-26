@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-02-14T09:12:43.733Z.
+ * Generated 2026-03-26T07:09:22.315Z.
  */
 
 public class UnknownOperatingSystemException extends Exception {

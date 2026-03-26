@@ -310,5 +310,17 @@
         "slug": "meta-browser",
         "name": "Meta Browser",
         "url":  "https://www.meta.com/"
+    },
+    {
+        "id": 52,
+        "slug": "avast-secure-browser",
+        "name": "Avast Secure Browser",
+        "url":  "https://www.avast.com/"
+    },
+    {
+        "id": 53,
+        "slug": "heytap-browser",
+        "name": "HeyTap Browser",
+        "url":  "https://www.heytap.com/"
     }
 ]
