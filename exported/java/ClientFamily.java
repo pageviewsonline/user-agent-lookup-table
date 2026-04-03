@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-03-26T07:09:22.314Z.
+ * Generated 2026-04-03T08:02:59.683Z.
  */
 
 public enum ClientFamily {
@@ -62,7 +62,13 @@ public enum ClientFamily {
     GOOGLE_GEMINI_APP(50, "google-gemini-app", "Google Gemini App", "https://gemini.google.com/"),
     META_BROWSER(51, "meta-browser", "Meta Browser", "https://www.meta.com/"),
     AVAST_SECURE_BROWSER(52, "avast-secure-browser", "Avast Secure Browser", "https://www.avast.com/"),
-    HEYTAP_BROWSER(53, "heytap-browser", "HeyTap Browser", "https://www.heytap.com/");
+    HEYTAP_BROWSER(53, "heytap-browser", "HeyTap Browser", "https://www.heytap.com/"),
+    META_EXTERNALAGENT_BOT(54, "meta-externalagent-bot", "Meta-ExternalAgent Bot", "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/"),
+    AMAZON_BEDROCK_AGENTCORE_BROWSER(55, "amazon-bedrock-agentcore-browser", "Amazon Bedrock AgentCore Browser", "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-tool.html"),
+    OKX_DOLPHIN_CRAWLER_BOT(56, "okx-dolphin-crawler-bot", "OKX Dolphin Crawler Bot", "https://www.okx.com/"),
+    ECOSIA_SEARCH_ENGINE(57, "ecosia-search-engine", "Ecosia Search Engine", "https://www.ecosia.org/"),
+    SIMPLANALYTICS_BOT(58, "simplanalytics-bot", "SimpleAnalytics Bot", "https://docs.simpleanalytics.com/bots"),
+    HUAWEI_BROWSER(59, "huawei-browser", "Huawei Browser", "https://consumer.huawei.com/en/mobileservices/browser/");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

@@ -10,6 +10,11 @@
         "os_family": "unknown"
     },
     {
+        "id": "meta-externalagent/x.x (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "client_family": "meta-externalagent-bot",
+        "os_family": "unknown"
+    },
+    {
         "id": "mozilla/5.0 (winxows nt 6.3; wow64; trixent/7.0; .net4.0e; .net4.0c; .net clr 3.5.30729; .net clr 2.0.50727; .net clr 3.0.30729; masejs; rv:11.0) like gecko",
         "client_family": "internet-explorer",
         "os_family": "windows"
@@ -27,6 +32,11 @@
     {
         "id": "mozilla/x.x (compatible; googlebot/x.x; +http://www.google.com/bot.html)",
         "client_family": "google-crawler-bot",
+        "os_family": "unknown"
+    },
+    {
+        "id": "mozilla/x.x (compatible; simpleanalyticsbot/x.x; adriaan +https://docs.simpleanalytics.com/bots)",
+        "client_family": "simplanalytics-bot",
         "os_family": "unknown"
     },
     {
@@ -93,6 +103,11 @@
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) crios/xxx.x.xxxx.xxx mobile/xxexxx safari/xxx.x",
         "client_family": "chrome",
         "os_family": "macos"
+    },
+    {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) fxios/xxx mobile/xxexxx version/xx.x",
+        "client_family": "firefox",
+        "os_family": "ios"
     },
     {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) fxios/xxx.x  mobile/xxexxx safari/xxx.x",
@@ -162,6 +177,11 @@
     {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x",
         "client_family": "safari",
+        "os_family": "ios"
+    },
+    {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x (compatible; yandexmobilebot/x.x; +http://yandex.com/bots)",
+        "client_family": "yandex-search-bot",
         "os_family": "ios"
     },
     {
@@ -375,6 +395,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; ady-lxx; hmscore x.xx.x.xxx; gmscore x.x.xx.xxxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx huaweibrowser/xx.x.x.xxx mobile safari/xxx.xx",
+        "client_family": "huawei-browser",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; aexxxx build/spxa.xxxxxx.xxx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx channel/release appname/ultralite app_version/xx.x.x region/bd bytelocale/en bytefulllocale/en spark/x.x.x.x-bugfix appversion/xx.x.x  pia/x.x.x",
         "client_family": "ultralight-app",
         "os_family": "android"
@@ -537,6 +562,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx",
         "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx (ecosia android@xxx.x.x.x)",
+        "client_family": "ecosia-search-engine",
         "os_family": "android"
     },
     {
@@ -830,6 +860,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; sm-axxxm build/spxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; sm-axxxm build/tpxa.xxxxxx.xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx",
         "client_family": "chrome",
         "os_family": "android"
@@ -925,6 +960,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; sm-sxxxu) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.x mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; sm-sxxxu) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx opr/xx.x.xxxx.xxxxx",
         "client_family": "opera",
         "os_family": "android"
@@ -976,7 +1016,7 @@
     },
     {
         "id": "mozilla/x.x (linux; android xx; vog-lxx; hmscore x.xx.x.xxx; gmscore xx.xx.xx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx huaweibrowser/xx.x.x.xxx mobile safari/xxx.xx",
-        "client_family": "chrome",
+        "client_family": "huawei-browser",
         "os_family": "android"
     },
     {
@@ -1205,6 +1245,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; arm_xx; android xx; xxxxxxxxrg) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.x.x.xxx.xx mobile safari/xxx.xx",
+        "client_family": "yandex-browser",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; u; android xx; pt-br; rmxxxxx build/apxa.xxxxxx.xxx.ax) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx mobile safari/xxx.xx heytapbrowser/xx.xx.x.x",
         "client_family": "heytap-browser",
         "os_family": "android"
@@ -1305,6 +1350,11 @@
         "os_family": "macos"
     },
     {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xx safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "macos"
+    },
+    {
         "id": "mozilla/x.x (macintosh; intel mac os x xx.xx; rv:xxx.x) gecko/xxxxxxxx firefox/xxx.x",
         "client_family": "firefox",
         "os_family": "macos"
@@ -1380,6 +1430,11 @@
         "os_family": "windows"
     },
     {
+        "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx okx-dolphin-crawler",
+        "client_family": "okx-dolphin-crawler-bot",
+        "os_family": "windows"
+    },
+    {
         "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx opr/xxx.x.x.x",
         "client_family": "opera",
         "os_family": "windows"
@@ -1391,6 +1446,11 @@
     },
     {
         "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx opr/xxx.x.x.x (edition campaign xx)",
+        "client_family": "opera",
+        "os_family": "windows"
+    },
+    {
+        "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx opr/xxx.x.x.x (edition developer)",
         "client_family": "opera",
         "os_family": "windows"
     },
@@ -1537,6 +1597,11 @@
     {
         "id": "mozilla/x.x (xxx; linux xxx_xx) applewebkit/xxx.xx (khtml like gecko) chrome/xxx.x.x.x safari/xxx.xx ptst/xxxxxx.xxxxxx",
         "client_family": "speedcurve-bot",
+        "os_family": "linux"
+    },
+    {
+        "id": "mozilla/x.x (xxx; linux xxx_xx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x amazon-bedrock-agentcore-browser/x.x (chromium; +https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-tool.html)",
+        "client_family": "amazon-bedrock-agentcore-browser",
         "os_family": "linux"
     },
     {

@@ -322,5 +322,41 @@
         "slug": "heytap-browser",
         "name": "HeyTap Browser",
         "url":  "https://www.heytap.com/"
+    },
+    {
+        "id": 54,
+        "slug": "meta-externalagent-bot",
+        "name": "Meta-ExternalAgent Bot",
+        "url":  "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/"
+    },
+    {
+        "id": 55,
+        "slug": "amazon-bedrock-agentcore-browser",
+        "name": "Amazon Bedrock AgentCore Browser",
+        "url":  "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-tool.html"
+    },
+    {
+        "id": 56,
+        "slug": "okx-dolphin-crawler-bot",
+        "name": "OKX Dolphin Crawler Bot",
+        "url":  "https://www.okx.com/"
+    },
+    {
+        "id": 57,
+        "slug": "ecosia-search-engine",
+        "name": "Ecosia Search Engine",
+        "url":  "https://www.ecosia.org/"
+    },
+    {
+        "id": 58,
+        "slug": "simplanalytics-bot",
+        "name": "SimpleAnalytics Bot",
+        "url":  "https://docs.simpleanalytics.com/bots"
+    },
+    {
+        "id": 59,
+        "slug": "huawei-browser",
+        "name": "Huawei Browser",
+        "url":  "https://consumer.huawei.com/en/mobileservices/browser/"
     }
 ]
