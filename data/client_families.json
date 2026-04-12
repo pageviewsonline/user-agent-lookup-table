@@ -349,7 +349,7 @@
     },
     {
         "id": 58,
-        "slug": "simplanalytics-bot",
+        "slug": "simpleanalytics-bot",
         "name": "SimpleAnalytics Bot",
         "url":  "https://docs.simpleanalytics.com/bots"
     },
@@ -358,5 +358,11 @@
         "slug": "huawei-browser",
         "name": "Huawei Browser",
         "url":  "https://consumer.huawei.com/en/mobileservices/browser/"
+    },
+    {
+        "id": 60,
+        "slug": "valve-steam-client",
+        "name": "Valve Steam Client",
+        "url": "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"
     }
 ]

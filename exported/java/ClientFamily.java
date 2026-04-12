@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-04-03T08:02:59.683Z.
+ * Generated 2026-04-12T08:34:46.126Z.
  */
 
 public enum ClientFamily {
@@ -67,8 +67,9 @@ public enum ClientFamily {
     AMAZON_BEDROCK_AGENTCORE_BROWSER(55, "amazon-bedrock-agentcore-browser", "Amazon Bedrock AgentCore Browser", "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-tool.html"),
     OKX_DOLPHIN_CRAWLER_BOT(56, "okx-dolphin-crawler-bot", "OKX Dolphin Crawler Bot", "https://www.okx.com/"),
     ECOSIA_SEARCH_ENGINE(57, "ecosia-search-engine", "Ecosia Search Engine", "https://www.ecosia.org/"),
-    SIMPLANALYTICS_BOT(58, "simplanalytics-bot", "SimpleAnalytics Bot", "https://docs.simpleanalytics.com/bots"),
-    HUAWEI_BROWSER(59, "huawei-browser", "Huawei Browser", "https://consumer.huawei.com/en/mobileservices/browser/");
+    SIMPLEANALYTICS_BOT(58, "simpleanalytics-bot", "SimpleAnalytics Bot", "https://docs.simpleanalytics.com/bots"),
+    HUAWEI_BROWSER(59, "huawei-browser", "Huawei Browser", "https://consumer.huawei.com/en/mobileservices/browser/"),
+    VALVE_STEAM_CLIENT(60, "valve-steam-client", "Valve Steam Client", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

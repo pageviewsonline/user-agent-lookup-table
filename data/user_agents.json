@@ -36,7 +36,12 @@
     },
     {
         "id": "mozilla/x.x (compatible; simpleanalyticsbot/x.x; adriaan +https://docs.simpleanalytics.com/bots)",
-        "client_family": "simplanalytics-bot",
+        "client_family": "simpleanalytics-bot",
+        "os_family": "unknown"
+    },
+    {
+        "id": "mozilla/x.x (compatible; simpleanalyticsbot/x.x; developer name +https://docs.simpleanalytics.com/bots)",
+        "client_family": "simpleanalytics-bot",
         "os_family": "unknown"
     },
     {
@@ -90,6 +95,11 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (ipad; cpu os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x.x mobile/xxexxx safari/xxx.x",
+        "client_family": "safari",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) brave/x mobile/xxexxx safari/xxx.x",
         "client_family": "brave",
         "os_family": "ios"
@@ -140,12 +150,22 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxcxx instagram xxx.x.x.xx.xx (iphonexx,x; ios xx_x_x; en_gb; en-gb; scale=x.xx; xxxxxxxxx; iabmv/x; xxxxxxxxx) safari/xxx.x",
+        "client_family": "instagram-app",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxcxx instagram xxx.x.x.xx.xx (iphonexx,x; ios xx_x_x; sv_se; sv; scale=x.xx; xxxxxxxxx; iabmv/x; xxxxxxxxx) nw/x safari/xxx.x",
         "client_family": "instagram-app",
         "os_family": "ios"
     },
     {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxcxx instagram xxx.x.x.xx.xx (iphonexx,x; ios xx_x_x; sv_se; sv; scale=x.xx; xxxxxxxxx; iabmv/x; xxxxxxxxx) safari/xxx.x",
+        "client_family": "instagram-app",
+        "os_family": "ios"
+    },
+    {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxcxx metaiab instagram nw/x safari/xxx.x",
         "client_family": "instagram-app",
         "os_family": "ios"
     },
@@ -245,6 +265,11 @@
         "os_family": "ios"
     },
     {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxgxxx instagram xxx.x.x.xx.xx (iphonexx,x; ios xx_x_x; sv_se; sv; scale=x.xx; xxxxxxxxx; iabmv/x; xxxxxxxxx) safari/xxx.x",
+        "client_family": "instagram-app",
+        "os_family": "ios"
+    },
+    {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x_x like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x",
         "client_family": "safari",
         "os_family": "ios"
@@ -302,6 +327,11 @@
     {
         "id": "mozilla/x.x (iphone; cpu iphone os xx_x_xx like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) mobile/xxhxxx instagram xxx.x.x.xx.xx (iphonexx,x; ios xx_x_xx; en_us; en; scale=x.xx; xxxxxxxxx; iabmv/x; xxxxxxxxx) safari/xxx.x",
         "client_family": "instagram-app",
+        "os_family": "ios"
+    },
+    {
+        "id": "mozilla/x.x (iphone; cpu iphone os xx_x_xx like mac os x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x",
+        "client_family": "safari",
         "os_family": "ios"
     },
     {
@@ -585,6 +615,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x safari/xxx.xx opr/xx.x.x.x",
+        "client_family": "opera",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; k) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x whale/x.x.x.x mobile safari/xxx.xx",
         "client_family": "naver-whale-browser",
         "os_family": "android"
@@ -607,6 +642,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; moto g play - xxxx build/txsgsxx.xxx-xx-x-x-x-xx; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;]",
         "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; moto g power (xxxx)) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx",
+        "client_family": "chrome",
         "os_family": "android"
     },
     {
@@ -666,6 +706,11 @@
     },
     {
         "id": "mozilla/x.x (linux; android xx; mxxxxkxg) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; pehmxx build/oppopehmxx;) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx safari/xxx.xx",
         "client_family": "chrome",
         "os_family": "android"
     },
@@ -777,6 +822,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; rmxxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
         "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; rodx-wxx build/honorrodx-wxxs; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx safari/xxx.xx",
+        "client_family": "android-webview",
         "os_family": "android"
     },
     {
@@ -945,8 +995,18 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; sm-nxxxux) applewebkit/xxx.xx (khtml, like gecko) chrome/xx.x.xxxx.xx mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; sm-sxxxb build/bpxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xxx;]",
         "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; sm-sxxxb) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.x.x mobile safari/xxx.xx",
+        "client_family": "chrome",
         "os_family": "android"
     },
     {
@@ -1125,6 +1185,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; android xx; xxxxbrnxcl build/bpxa.xxxxxx.xxx.ax) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; android xx; xxxxernxci build/bpxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
         "client_family": "android-webview",
         "os_family": "android"
@@ -1167,6 +1232,11 @@
     {
         "id": "mozilla/x.x (linux; android xx; xxxxxrnxxl build/apxa.xxxxxx.xxx.ax; wv) applewebkit/xxx.xx (khtml, like gecko) version/x.x chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx [fb_iab/fbxa;fbav/xxx.x.x.xx.xx;iabmv/x;]",
         "client_family": "facebook-app",
+        "os_family": "android"
+    },
+    {
+        "id": "mozilla/x.x (linux; android xx; xxxxxrnxxl build/apxa.xxxxxx.xxx.ax) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx mobile safari/xxx.xx",
+        "client_family": "chrome",
         "os_family": "android"
     },
     {
@@ -1225,6 +1295,11 @@
         "os_family": "android"
     },
     {
+        "id": "mozilla/x.x (linux; arm_xx; android xx; lm-fxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx yabrowser/xx.x.x.xxx.xx mobile safari/xxx.xx",
+        "client_family": "yandex-browser",
+        "os_family": "android"
+    },
+    {
         "id": "mozilla/x.x (linux; arm_xx; android xx; rmxxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxxx yasearchbrowser/xx.xxx.x bropp/x.x yasearchapp/xx.xxx.x webomni mobile safari/xxx.xx",
         "client_family": "yandex-browser",
         "os_family": "android"
@@ -1267,6 +1342,16 @@
     {
         "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) edgios/xxx version/xx.x safari/xxx.x.xx",
         "client_family": "microsoft-edge",
+        "os_family": "macos"
+    },
+    {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx safari/xxx.x",
+        "client_family": "safari",
+        "os_family": "macos"
+    },
+    {
+        "id": "mozilla/x.x (macintosh; intel mac os x xx_xx_x) applewebkit/xxx.x.xx (khtml, like gecko) version/xx.x mobile/xxexxx snapchat/xx.xx.x.xx (like safari/xxxx.x.xx.xx.x, panda)",
+        "client_family": "snapchat-app",
         "os_family": "macos"
     },
     {
@@ -1372,6 +1457,11 @@
     {
         "id": "mozilla/x.x (windows nt xx.x; winxx; xxx; rv:xxx.x) gecko/xxxxxxxx firefox/xxx.x",
         "client_family": "firefox",
+        "os_family": "windows"
+    },
+    {
+        "id": "mozilla/x.x (windows nt xx.x; winxx; xxx; valve steam client/default/xxxxxxxxxx) applewebkit/xxx.xx (khtml, like gecko) chrome/xxx.x.xxxx.xxx safari/xxx.xx",
+        "client_family": "valve-steam-client",
         "os_family": "windows"
     },
     {
@@ -1552,6 +1642,11 @@
     {
         "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx (khtml, like gecko) streamlabsdesktop/x.xx.x chrome/xxx.x.xxxx.xxx electron/xx.x.x safari/xxx.xx",
         "client_family": "streamlabs-desktop",
+        "os_family": "windows"
+    },
+    {
+        "id": "mozilla/x.x (windows nt xx.x; winxx; xxx) applewebkit/xxx.xx chrome/xxx safari/xxx.xx",
+        "client_family": "chrome",
         "os_family": "windows"
     },
     {
