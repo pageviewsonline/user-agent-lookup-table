@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-04-21T08:48:14.595Z.
+ * Generated 2026-05-19T12:29:56.099Z.
  */
 
 public enum ClientFamily {
@@ -69,7 +69,9 @@ public enum ClientFamily {
     ECOSIA_SEARCH_ENGINE(57, "ecosia-search-engine", "Ecosia Search Engine", "https://www.ecosia.org/"),
     SIMPLEANALYTICS_BOT(58, "simpleanalytics-bot", "SimpleAnalytics Bot", "https://docs.simpleanalytics.com/bots"),
     HUAWEI_BROWSER(59, "huawei-browser", "Huawei Browser", "https://consumer.huawei.com/en/mobileservices/browser/"),
-    VALVE_STEAM_CLIENT(60, "valve-steam-client", "Valve Steam Client", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9");
+    VALVE_STEAM_CLIENT(60, "valve-steam-client", "Valve Steam Client", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"),
+    GOOGLE_STOREBOT(61, "google-storebot", "Google StoreBot Crawler", "https://support.google.com/merchants/answer/13294660?hl=en"),
+    AMAZON_WEBVIEW(62, "amazon-webview", "Amazon Cordova WebView", "https://support.google.com/merchants/answer/13294660?hl=en");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

@@ -364,5 +364,17 @@
         "slug": "valve-steam-client",
         "name": "Valve Steam Client",
         "url": "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"
+    },
+    {
+        "id": 61,
+        "slug": "google-storebot",
+        "name": "Google StoreBot Crawler",
+        "url": "https://support.google.com/merchants/answer/13294660?hl=en"
+    },
+    {
+        "id": 62,
+        "slug": "amazon-webview",
+        "name": "Amazon Cordova WebView",
+        "url": "https://support.google.com/merchants/answer/13294660?hl=en"
     }
 ]
