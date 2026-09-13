@@ -1,4 +1,4 @@
-import {clientFamilies, operatingSystemFamilies, userAgents} from "./data.js";
+import {clientFamilies, clientFamilyTypes, operatingSystemFamilies, userAgents} from "./data.js";
 import {getSourceCodeHeaderComment, writeFile} from "./utils.js";
 
 function createEnumName( s ) {
@@ -63,7 +63,7 @@ function exportClientFamilies() {
     for( let i = 0; i < clientFamilies.length; i++ ) {
         const osf = clientFamilies[i];
         const delimiter = (i + 1) < clientFamilies.length ? "," : ";";
-        code += `    ${createEnumName(osf.slug)}(${osf.id}, "${osf.slug}", "${osf.name}", "${osf.url}")${delimiter}\n`;
+        code += `    ${createEnumName(osf.slug)}(${osf.id}, "${osf.slug}", ClientFamilyType.${createEnumName(osf.type)}, "${osf.name}", "${osf.url}")${delimiter}\n`;
     }
     code += '\n';
     code += '    public static ClientFamily create(int id) throws UnknownClientFamilyException {\n';
@@ -77,14 +77,76 @@ function exportClientFamilies() {
     code += '\n';
     code += '    private final int id;\n';
     code += '    private final String slug;\n';
+    code += '    private final ClientFamilyType type;\n';
     code += '    private final String name;\n';
     code += '    private final String url;\n';
     code += '\n';
-    code += '    ClientFamily(int id, String slug, String name, String url) {\n';
+    code += '    ClientFamily(int id, String slug, ClientFamilyType type, String name, String url) {\n';
+    code += '        this.id = id;\n';
+    code += '        this.slug = slug;\n';
+    code += '        this.type = type;\n';
+    code += '        this.name = name;\n';
+    code += '        this.url = url;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public int getID() {\n';
+    code += '        return this.id;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public String getSlug() {\n';
+    code += '        return this.slug;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public ClientFamilyType getType() {\n';
+    code += '        return this.type;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public String getName() {\n';
+    code += '        return this.name;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    public String getURL() {\n';
+    code += '        return this.url;\n';
+    code += '    }\n';
+    code += '\n';
+    code += '}\n';
+
+    writeFile("exported/java/ClientFamily.java", code);
+
+}
+
+function exportClientFamilyTypes() {
+
+    let code = "";
+    code += `package online.pageviews.useragentlookup;\n`;
+    code += '\n';
+    code += getSourceCodeHeaderComment();
+    code += '\n';
+    code += `public enum ClientFamilyType {\n`;
+    code += '\n';
+    for( let i = 0; i < clientFamilyTypes.length; i++ ) {
+        const cft = clientFamilyTypes[i];
+        const delimiter = (i + 1) < clientFamilyTypes.length ? "," : ";";
+        code += `    ${createEnumName(cft.slug)}(${cft.id}, "${cft.slug}", "${cft.name}")${delimiter}\n`;
+    }
+    code += '\n';
+    code += '    public static ClientFamilyType create(int id) throws UnknownClientFamilyTypeException {\n';
+    code += '        for (ClientFamilyType mode : ClientFamilyType.values()) {\n';
+    code += '            if (mode.id == id) {\n';
+    code += '                return mode;\n';
+    code += '            }\n';
+    code += '        }\n';
+    code += '        throw new UnknownClientFamilyTypeException(id);\n';
+    code += '    }\n';
+    code += '\n';
+    code += '    private final int id;\n';
+    code += '    private final String slug;\n';
+    code += '    private final String name;\n';
+    code += '\n';
+    code += '    ClientFamilyType(int id, String slug, String name) {\n';
     code += '        this.id = id;\n';
     code += '        this.slug = slug;\n';
     code += '        this.name = name;\n';
-    code += '        this.url = url;\n';
     code += '    }\n';
     code += '\n';
     code += '    public int getID() {\n';
@@ -99,13 +161,9 @@ function exportClientFamilies() {
     code += '        return this.name;\n';
     code += '    }\n';
     code += '\n';
-    code += '    public String getURL() {\n';
-    code += '        return this.url;\n';
-    code += '    }\n';
-    code += '\n';
     code += '}\n';
 
-    writeFile("exported/java/ClientFamily.java", code);
+    writeFile("exported/java/ClientFamilyType.java", code);
 
 }
 
@@ -202,6 +260,24 @@ function exportUnknownClientFamilyException() {
     writeFile("exported/java/UnknownClientFamilyException.java", code);
 }
 
+function exportUnknownClientFamilyTypeException() {
+
+    let code = "";
+    code += `package online.pageviews.useragentlookup;\n`;
+    code += '\n';
+    code += getSourceCodeHeaderComment();
+    code += '\n';
+    code += 'public class UnknownClientFamilyTypeException extends Exception {\n';
+    code += '\n';
+    code += '    public UnknownClientFamilyTypeException(int id) {\n';
+    code += '        super("Unknown client family type \\"" + id + "\\".");\n';
+    code += '    }\n';
+    code += '\n';
+    code += '}\n';
+
+    writeFile("exported/java/UnknownClientFamilyTypeException.java", code);
+}
+
 function exportUserAgentData() {
 
     let code = "";
@@ -245,9 +321,11 @@ console.log("Starting Java export...")
 
 exportUserAgentsDatabase();
 exportClientFamilies();
+exportClientFamilyTypes();
 exportOperatingSystemFamilies();
 exportUnknownOperatingSystemException();
 exportUnknownClientFamilyException();
+exportUnknownClientFamilyTypeException();
 exportUserAgentData();
 
 console.log("Java export done.")

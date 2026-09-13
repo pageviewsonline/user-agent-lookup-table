@@ -1,4 +1,4 @@
-import {clientFamilies, getClientFamilyBySlug, getOperatingSystemFamilyBySlug, operatingSystemFamilies, userAgents} from "./data.js";
+import {clientFamilies, clientFamilyTypes, getClientFamilyBySlug, getClientFamilyTypeBySlug, getOperatingSystemFamilyBySlug, operatingSystemFamilies, userAgents} from "./data.js";
 
 console.log("Starting tests...");
 
@@ -70,6 +70,21 @@ console.log("Starting tests...");
         }
         if( !Object.hasOwn(cf,"url")) {
             throw Error(`Client family  ${cf.name} is missing URL property.`)
+        }
+        if( getClientFamilyTypeBySlug(cf.type) === undefined ) {
+            throw Error(`Invalid client family type "${cf.type}" for client family "${cf.slug}".`)
+        }
+    }
+})();
+
+/*
+ * Test each client family type.
+ */
+(() => {
+    for( let i = 0; i < clientFamilyTypes.length; i++ ) {
+        const cft = clientFamilyTypes[i];
+        if( cft.id !== i ) {
+            throw Error(`Client family type at index ${i} does not have correct id (${cft.id}).`)
         }
     }
 })();

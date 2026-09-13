@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-09-13T07:47:54.634Z.
+ * Generated 2026-09-13T08:29:55.311Z.
  */
 
 public enum OperatingSystemFamily {
@@ -12,13 +12,14 @@ public enum OperatingSystemFamily {
     UNKNOWN(0, "unknown", "Unknown", ""),
     IOS(1, "ios", "iOS", "https://www.apple.com/os/ios/"),
     LINUX(2, "linux", "Linux", "https://kernel.org/"),
-    ANDROID_FIRE_OS(3, "android-fire-os", "Amazon Fire OS", "https://developer.amazon.com/docs/fire-tv/fire-os-overview.html"),
+    ANDROID_FIRE_OS(3, "android-fire-os", "Amazon Fire OS", "https://developer.amazon.com/fire-tablets"),
     WINDOWS(4, "windows", "Windows", "https://www.microsoft.com/en-us/windows"),
     MACOS(5, "macos", "macOS", "https://www.apple.com/os/macos/"),
     LINUX_UBUNTU(6, "linux-ubuntu", "Ubuntu", "https://ubuntu.com/"),
-    CHROME_OS(7, "chrome-os", "Chrome OS", "https://chromeos.google/"),
+    CHROME_OS(7, "chrome-os", "ChromeOS", "https://chromeos.google/"),
     ANDROID(8, "android", "Android", "https://www.android.com/"),
-    LINUX_ARCH(9, "linux-arch", "Arch Linux", "https://archlinux.org/");
+    LINUX_ARCH(9, "linux-arch", "Arch Linux", "https://archlinux.org/"),
+    ANDROID_META_HORIZON_OS(10, "android-meta-horizon-os", "Meta Horizon OS", "https://developers.meta.com/horizon/");
 
     public static OperatingSystemFamily create(int id) throws UnknownOperatingSystemException {
         for (OperatingSystemFamily mode : OperatingSystemFamily.values()) {

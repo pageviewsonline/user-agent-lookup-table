@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "slug": "unknown",
+        "name": "Unknown"
+    },
+    {
+        "id": 1,
+        "slug": "app",
+        "name": "App"
+    },
+    {
+        "id": 2,
+        "slug": "bot",
+        "name": "Bot"
+    },
+    {
+        "id": 3,
+        "slug": "webview",
+        "name": "WebView"
+    },
+    {
+        "id": 4,
+        "slug": "browser",
+        "name": "Browser"
+    }
+]

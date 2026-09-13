@@ -21,7 +21,7 @@
         "id": 3,
         "slug": "android-fire-os",
         "name": "Amazon Fire OS",
-        "url": "https://developer.amazon.com/docs/fire-tv/fire-os-overview.html"
+        "url": "https://developer.amazon.com/fire-tablets"
     },
     {
         "id": 4,
@@ -44,7 +44,7 @@
     {
         "id": 7,
         "slug": "chrome-os",
-        "name": "Chrome OS",
+        "name": "ChromeOS",
         "url": "https://chromeos.google/"
     },
     {
@@ -58,5 +58,11 @@
         "slug": "linux-arch",
         "name": "Arch Linux",
         "url": "https://archlinux.org/"
+    },
+    {
+        "id": 10,
+        "slug": "android-meta-horizon-os",
+        "name": "Meta Horizon OS",
+        "url": "https://developers.meta.com/horizon/"
     }
 ]

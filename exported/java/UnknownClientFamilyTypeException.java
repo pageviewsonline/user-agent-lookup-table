@@ -7,10 +7,10 @@ package online.pageviews.useragentlookup;
  * Generated 2026-09-13T08:29:55.313Z.
  */
 
-public class UnknownClientFamilyException extends Exception {
+public class UnknownClientFamilyTypeException extends Exception {
 
-    public UnknownClientFamilyException(int id) {
-        super("Unknown client family \"" + id + "\".");
+    public UnknownClientFamilyTypeException(int id) {
+        super("Unknown client family type \"" + id + "\".");
     }
 
 }
