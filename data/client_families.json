@@ -376,5 +376,35 @@
         "slug": "amazon-webview",
         "name": "Amazon Cordova WebView",
         "url": "https://support.google.com/merchants/answer/13294660?hl=en"
+    },
+    {
+        "id": 63,
+        "slug": "bot-seekport",
+        "name": "Seekport Bot",
+        "url": "https://bot.seekport.com/"
+    },
+    {
+        "id": 64,
+        "slug": "obs-studio-streamlabs",
+        "name": "OBS Studio Streamlabs",
+        "url": "https://streamlabs.com/"
+    },
+    {
+        "id": 65,
+        "slug": "bot-linkedin",
+        "name": "LinkedIn Bot",
+        "url": "https://www.linkedin.com"
+    },
+    {
+        "id": 66,
+        "slug": "app-wechat",
+        "name": "LinkedIn Bot",
+        "url": "https://www.wechat.com/en"
+    },
+    {
+        "id": 67,
+        "slug": "bot-shapbot",
+        "name": "ShapBot",
+        "url": "https://docs.parallel.ai/resources/crawler"
     }
 ]

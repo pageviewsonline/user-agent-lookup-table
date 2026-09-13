@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-05-19T12:29:56.099Z.
+ * Generated 2026-09-13T07:47:54.633Z.
  */
 
 public enum ClientFamily {
@@ -71,7 +71,12 @@ public enum ClientFamily {
     HUAWEI_BROWSER(59, "huawei-browser", "Huawei Browser", "https://consumer.huawei.com/en/mobileservices/browser/"),
     VALVE_STEAM_CLIENT(60, "valve-steam-client", "Valve Steam Client", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"),
     GOOGLE_STOREBOT(61, "google-storebot", "Google StoreBot Crawler", "https://support.google.com/merchants/answer/13294660?hl=en"),
-    AMAZON_WEBVIEW(62, "amazon-webview", "Amazon Cordova WebView", "https://support.google.com/merchants/answer/13294660?hl=en");
+    AMAZON_WEBVIEW(62, "amazon-webview", "Amazon Cordova WebView", "https://support.google.com/merchants/answer/13294660?hl=en"),
+    BOT_SEEKPORT(63, "bot-seekport", "Seekport Bot", "https://bot.seekport.com/"),
+    OBS_STUDIO_STREAMLABS(64, "obs-studio-streamlabs", "OBS Studio Streamlabs", "https://streamlabs.com/"),
+    BOT_LINKEDIN(65, "bot-linkedin", "LinkedIn Bot", "https://www.linkedin.com"),
+    APP_WECHAT(66, "app-wechat", "LinkedIn Bot", "https://www.wechat.com/en"),
+    BOT_SHAPBOT(67, "bot-shapbot", "ShapBot", "https://docs.parallel.ai/resources/crawler");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

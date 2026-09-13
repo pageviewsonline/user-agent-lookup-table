@@ -43,6 +43,11 @@ console.log("Starting tests...");
             throw Error(`User agent "${userAgent.id}" is not in lower case".`)
         }
 
+        // Normalized user agents must not contain digits (they should be replaced with "x")
+        if( /\d/.test(userAgent.id) ) {
+            throw Error(`User agent "${userAgent.id}" contains numbers.`)
+        }
+
         if( getClientFamilyBySlug(userAgent.client_family) === undefined ) {
             throw Error(`Invalid client family "${userAgent.client_family}" for user agent "${userAgent.id}".`)
         }
