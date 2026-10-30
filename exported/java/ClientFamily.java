@@ -4,7 +4,7 @@ package online.pageviews.useragentlookup;
  * PageviewsOnline Site Analytics User Agent Lookup Table
  * https://github.com/pageviewsonline/user-agent-lookup-table/
  *
- * Generated 2026-09-13T08:29:55.310Z.
+ * Generated 2026-10-30T11:41:29.485Z.
  */
 
 public enum ClientFamily {
@@ -82,7 +82,12 @@ public enum ClientFamily {
     HIBROWSER(70, "hibrowser", ClientFamilyType.BROWSER, "HiBrowser", "https://play.google.com/store/apps/details?id=com.hisense.odinbrowser&hl=en&pli=1"),
     AVG_SECURE_BROWSER(71, "avg-secure-browser", ClientFamilyType.BROWSER, "AVG Secure Browser", "https://www.avg.com/"),
     OBS_STUDIO_APP(72, "obs-studio-app", ClientFamilyType.APP, "OBS Studio", "https://obsproject.com/"),
-    VALVE_STEAM_GAMEPAD_APP(73, "valve-steam-gamepad-app", ClientFamilyType.APP, "Valve Steam Gamepad UI", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9");
+    VALVE_STEAM_GAMEPAD_APP(73, "valve-steam-gamepad-app", ClientFamilyType.APP, "Valve Steam Gamepad UI", "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"),
+    CLAUDE_APP(74, "claude-app", ClientFamilyType.APP, "Claude App", "https://claude.ai/"),
+    HUBSPOT_CRAWLER_BOT(75, "hubspot-crawler-bot", ClientFamilyType.BOT, "HubSpot Crawler Bot", "https://www.hubspot.com/"),
+    QQ_BROWSER(76, "qq-browser", ClientFamilyType.BROWSER, "QQ Browser", "https://browser.qq.com/"),
+    MISTRALAI_USER_BOT(77, "mistralai-user-bot", ClientFamilyType.BOT, "MistralAI-User Bot", "https://docs.mistral.ai/robots"),
+    WCAGREPAIR_BOT(78, "wcagrepair-bot", ClientFamilyType.BOT, "WCAGRepair Bot", "https://wcagrepair.com/bot");
 
     public static ClientFamily create(int id) throws UnknownClientFamilyException {
        for (ClientFamily mode : ClientFamily.values()) {

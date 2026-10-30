@@ -516,5 +516,40 @@
         "type": "app",
         "name": "Valve Steam Gamepad UI",
         "url": "https://help.steampowered.com/en/faqs/view/3978-072C-18DF-FBF9"
+    },
+    {
+        "id": 74,
+        "slug": "claude-app",
+        "type": "app",
+        "name": "Claude App",
+        "url": "https://claude.ai/"
+    },
+    {
+        "id": 75,
+        "slug": "hubspot-crawler-bot",
+        "type": "bot",
+        "name": "HubSpot Crawler Bot",
+        "url": "https://www.hubspot.com/"
+    },
+    {
+        "id": 76,
+        "slug": "qq-browser",
+        "type": "browser",
+        "name": "QQ Browser",
+        "url": "https://browser.qq.com/"
+    },
+    {
+        "id": 77,
+        "slug": "mistralai-user-bot",
+        "type": "bot",
+        "name": "MistralAI-User Bot",
+        "url": "https://docs.mistral.ai/robots"
+    },
+    {
+        "id": 78,
+        "slug": "wcagrepair-bot",
+        "type": "bot",
+        "name": "WCAGRepair Bot",
+        "url": "https://wcagrepair.com/bot"
     }
 ]
